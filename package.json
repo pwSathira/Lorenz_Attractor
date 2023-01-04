@@ -1,0 +1,7 @@
+{
+  "name": "Lorenz_Attractor",
+  "version": "1.0.0",
+  "dependencies": {
+    "three": "^0.148.0"
+  }
+}
