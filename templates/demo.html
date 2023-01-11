@@ -1,10 +1,19 @@
-<html>
-  <head>
-    <title>Lorenz Attractor</title>
-    <!-- Load the plotly.js library -->
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  </head>
-  <body>
-<embed type="text/html" src="static/lorenz.html" width="2000" height="2000">
-  </body>
-</html>
+{#<html>#}
+{#  <head>#}
+{#    <title>Lorenz Attractor</title>#}
+{#    <!-- Load the plotly.js library -->#}
+{#    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>#}
+{#  </head>#}
+{#  <body>#}
+{#<embed type="text/html" src="static/lorenz.html" width="2000" height="2000">#}
+{#  </body>#}
+{#</html>#}
+
+{% extends 'layout.html' %}
+
+{% block body %}
+    <link rel="stylesheet" href="demo.css">
+<div class="jumbotron">
+        <embed type="text/html" src="static/lorenz.html" width="2000" height="2000" >
+  </div>
+{% endblock %}
